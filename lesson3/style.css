@@ -13,3 +13,10 @@ body {
     font-style: italic;
     color: green
 }
+
+.tovar h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}

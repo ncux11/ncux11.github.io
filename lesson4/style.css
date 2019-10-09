@@ -1,0 +1,65 @@
+body {
+    background-color: #f8f8f8;
+}
+
+#menu * {
+    list-style-type: none;
+    font-family: serif;
+    font: "Times New Roman";
+    font-size: 16px;
+    font-style: italic;
+    color: darkslategray;
+    line-height: 1.25;
+}
+
+.tovar h2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.tovar img {
+    outline: 1px solid darkgrey;
+    width: 30%;
+}
+
+.less + p {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.more + span {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.harakiri li {
+    font-size: 15px;
+    color: #484848;
+    line-height: 20px;
+    list-style-image: url(img/purrson16.png)
+}
+
+input[type="text"] {
+    font-family: monospace;
+    font-size: 12px;
+    background-color: gainsboro;
+    color: darkslategray;
+    height: 16px;
+    width: 240px;
+}
+
+input[type="email"] {
+    font-family: monospace;
+    font-size: 12px;
+    background-color: gainsboro;
+    color: darkslategray;
+    height: 16px;
+    width: 240px;
+}

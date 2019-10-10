@@ -2,14 +2,28 @@ body {
     background-color: #f8f8f8;
 }
 
+.header {
+    height: 70px;
+    border-collapse: collapse;
+    vertical-align: middle;
+    text-align: left;
+    padding: 0;
+    border-spacing: 0;
+
+}
+
 #menu * {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
     list-style-type: none;
     font-family: serif;
     font: "Times New Roman";
     font-size: 16px;
     font-style: italic;
     color: darkslategray;
-    line-height: 1.25;
+    text-decoration: none;
+    text-align: center;
 }
 
 .tovar h2 {
@@ -20,8 +34,12 @@ body {
 }
 
 .tovar img {
-    outline: 1px solid darkgrey;
+    outline: 2px solid darkgrey;
     width: 30%;
+}
+
+.tovar img:hover {
+    outline: none;
 }
 
 .less + p {
@@ -53,6 +71,11 @@ input[type="text"] {
     color: darkslategray;
     height: 16px;
     width: 240px;
+    text-transform: capitalize;
+}
+
+input[type="email"]:active {
+    background-color: aquamarine;
 }
 
 input[type="email"] {
@@ -62,4 +85,29 @@ input[type="email"] {
     color: darkslategray;
     height: 16px;
     width: 240px;
+}
+
+#menu {
+    text-align: left;
+}
+
+ul#menu {
+    padding-inline-start: 0px;
+}
+
+#menu li a:hover {
+    color: darkcyan;
+}
+
+#menu li a:active {
+    color: red;
+}
+
+input::placeholder {
+    text-transform: none;
+}
+
+input[type="email"]:focus {
+    color: lightseagreen;
+    font-weight: bold;
 }

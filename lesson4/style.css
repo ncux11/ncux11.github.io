@@ -110,4 +110,9 @@ input::placeholder {
 input[type="email"]:focus {
     color: lightseagreen;
     font-weight: bold;
+    color: beige;
+}
+.tovar p::first-letter {
+    font-family: cursive;
+    font-size: 1.25em;
 }

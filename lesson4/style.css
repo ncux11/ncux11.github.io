@@ -26,19 +26,19 @@ body {
     text-align: center;
 }
 
-.tovar h2 {
+.content h2 {
     color: black;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
 }
 
-.tovar img {
+.content img {
     outline: 2px solid darkgrey;
     width: 30%;
 }
 
-.tovar img:hover {
+.content img:hover {
     outline: none;
 }
 

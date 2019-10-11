@@ -112,7 +112,32 @@ input[type="email"]:focus {
     font-weight: bold;
     color: beige;
 }
+
 .tovar p::first-letter {
     font-family: cursive;
     font-size: 1.25em;
+}
+
+
+.harak-table {
+    height: 16px;
+    width: 50%;
+    text-align: center;
+        border-collapse: collapse
+}
+
+.harak-table td {
+
+    border: 1px solid #000;
+}
+
+
+.harak-table tr:first-child {
+    height: 24px;
+    border: 1px solid #red;
+}
+
+.harak-table tr:first-child td:first-child {
+    border-top: none;
+    border-left: none;
 }

@@ -8,7 +8,9 @@ body {
     vertical-align: middle;
     padding: 0;
     border-spacing: 0;
-    display: inline-block;
+    // display: inline-block;
+    // background: url(img/header.jpg);
+    // background-blend-mode: multiply;
 
 }
 
@@ -29,7 +31,7 @@ body {
     text-decoration: none;
     text-align: center;
     float: right;
-    
+
 }
 
 .content h2 {
@@ -42,6 +44,7 @@ body {
 .content img {
     outline: 2px solid darkgrey;
     width: 30%;
+
 }
 
 .content img:hover {
@@ -152,4 +155,25 @@ input[type="email"]:focus {
     width: 90%;
     margin: 0 auto;
 
+}
+
+.content table {
+    text-align: center
+}
+
+.buy a {
+    text-decoration: none;
+    background: lightgray;
+    color: black;
+}
+
+.buy a:hover {
+    background: red;
+    text-decoration: none;
+}
+
+.buy a:active {
+    color: deepskyblue;
+    background: red;
+    text-decoration: none;
 }

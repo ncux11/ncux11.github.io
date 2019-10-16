@@ -9,29 +9,28 @@ body {
     padding: 0;
     border-spacing: 0;
     // display: inline-block;
-    // background: url(img/header.jpg);
-    // background-blend-mode: multiply;
+    background: url(img/header.jpg);
+    background-blend-mode: multiply;
 
 }
 
 .logogo {
-    padding-left: 20px;
-    padding-top: 5px;
+    padding-left: 10px;
+    padding-top: 1px;
 }
 
 #menu * {
     padding-left: 10px;
     padding-right: 10px;
     list-style-type: none;
-    font-family: serif;
+    font-family: fantasy;
     font: "Times New Roman";
-    font-size: 16px;
-    font-style: italic;
-    color: darkslategray;
+    font-size: 30px;
+    font-style: normal;
+    color: #555;
     text-decoration: none;
     text-align: center;
     float: right;
-
 }
 
 .content h2 {

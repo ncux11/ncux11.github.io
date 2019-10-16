@@ -177,3 +177,18 @@ input[type="email"]:focus {
     background: red;
     text-decoration: none;
 }
+
+.tovarka {
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    
+}
+.tovarka a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.content {
+    text-align: center;
+}

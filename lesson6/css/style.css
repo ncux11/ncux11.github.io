@@ -1,0 +1,19 @@
+/* Style for "home-page container" */
+.container {
+    font-family: 'Montserrat', sans-serif;
+    width: 1366px;
+    height: 5710px;
+}
+
+/* Style for "navbar" */
+.navbar {
+    width: 1366px;
+    height: 90px;
+}
+
+/* Style for "logo" */
+.logo {
+    width: 185px;
+    height: 22px;
+    background-color: #212121;
+}

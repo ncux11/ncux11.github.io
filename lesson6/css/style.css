@@ -9,6 +9,7 @@
 .navbar {
     width: 1366px;
     height: 90px;
+    border: 1px solid #000;
 }
 
 /* Style for "logo" */

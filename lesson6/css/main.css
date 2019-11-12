@@ -161,16 +161,16 @@ body {
 }
 
 .tab-content-link-active {
-        color: #212121;
+    color: #212121;
     border-bottom: 3px solid #212121;
-   }
+}
 
 .no-border {
     box-shadow: none;
     border-radius: 0;
     width: auto;
     height: 45px;
-    vertical-align: bottom;
+    line-height: 65px;
 }
 
 .tab-control {
@@ -194,8 +194,51 @@ body {
     float: left;
     padding-left: 30px;
     padding-bottom: 120px;
-    
+
 }
+
 .product-content:first-child {
     padding-left: 0px;
+}
+
+.promo-ex {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding-top: 228px;
+}
+
+.promo-product-name {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+
+.promo-text {
+    width: 374px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24.04px;
+    padding-top: 24px;
+    padding-bottom: 34px;
+}
+
+.promo-content1 {
+    background-image: url(../img/promo-img1.png);
+    width: 585px;
+    height: 683px;
+    padding-left: 98px;
+}
+
+.promo-content2 {
+    background-image: url(../img/promo-img.png);
+    width: 585px;
+    height: 683px;
+    padding-left: 98px;
+}
 }

@@ -110,6 +110,7 @@ body {
     text-transform: uppercase;
     width: 212px;
     height: 45px;
+    color: #212121;
     line-height: 45px;
     text-align: center;
     display: inline-block;
@@ -171,7 +172,6 @@ body {
     width: auto;
     height: 45px;
     line-height: 65px;
-    color: #212121;
 }
 
 .tab-control {

@@ -230,14 +230,14 @@ body {
 }
 
 .promo-content1 {
-    background-image: url(/img/promo-img1.png);
+    background-image: url(../img/promo-img1.png);
     width: 585px;
     height: 683px;
     padding-left: 98px;
 }
 
 .promo-content2 {
-    background-image: url(/img/promo-img.png);
+    background-image: url(../img/promo-img.png);
     width: 585px;
     height: 683px;
     padding-left: 98px;

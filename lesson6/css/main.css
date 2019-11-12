@@ -155,10 +155,14 @@ body {
     color: #6c6c6c;
     font-size: 36px;
     font-weight: 700;
+    padding-right: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #6c6c6c;
 }
 
 .tab-content-link-active {
         color: #212121;
+    border-bottom: 3px solid #212121;
    }
 
 .no-border {
@@ -171,12 +175,27 @@ body {
 
 .tab-control {
     margin-top: 120px;
+    margin-bottom: 50px;
 }
 
 .tab-control-menu {
-    
+    list-style-type: none;
 }
 
 .float-left {
     float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.product-content {
+    float: left;
+    padding-left: 30px;
+    padding-bottom: 120px;
+    
+}
+.product-content:first-child {
+    padding-left: 0px;
 }

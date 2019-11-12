@@ -206,27 +206,27 @@ body {
     color: #1e88e5;
     font-size: 18px;
     font-weight: 700;
-    line-height: 48px;
+    line-height: 40px;
     text-transform: uppercase;
     letter-spacing: 1.8px;
-    padding-top: 228px;
+    padding-top: 210px;
 }
 
 .promo-product-name {
     color: #212121;
     font-size: 36px;
     font-weight: 700;
-    padding-top: 18px;
+    padding-top: 0px;
 }
 
 .promo-text {
-    width: 374px;
+    width: 385px;
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .promo-content1 {
